@@ -303,12 +303,12 @@
             <line x1="0" y1="50" x2="560" y2="50" stroke="#eceafa" stroke-width="1"/>
             <path d="M10,25 C 60,35 90,45 130,60 C 160,70 175,50 205,58 C 250,70 260,95 300,105 C 335,113 345,90 380,98 C 420,107 430,135 470,140 C 500,144 520,150 550,150"
                   fill="none" stroke="#7c6fe0" stroke-width="3" stroke-linecap="round"/>
-            <circle cx="130" cy="60" r="5" fill="#e2748c"/>
-            <circle cx="300" cy="105" r="5" fill="#d9a441"/>
+            <circle cx="130" cy="60" r="5" fill="#d9a441"/>
+            <circle cx="300" cy="105" r="5" fill="#e2748c"/>
             <circle cx="470" cy="140" r="5" fill="#e2748c"/>
           </svg>
-          <div class="chart-note" style="top:38px; right:110px;">الرفض الأول</div>
-          <div class="chart-note" style="top:78px; right:270px; background:#fbf1e2; color:#d9a441;">قائمة الانتظار</div>
+          <div class="chart-note" style="top:38px; right:110px; background:#fbf1e2; color:#d9a441;">قائمة الانتظار</div>
+          <div class="chart-note" style="top:78px; right:270px;">الرفض الأول</div>
           <div class="chart-note" style="top:112px; right:445px;">الرفض الثاني</div>
         </div>
       </div>
@@ -365,8 +365,8 @@
           <div class="tl-label">انتظار</div>
         </div>
         <div class="tl-step">
-          <div class="tl-dot bad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg></div>
-          <div class="tl-label">رفض</div>
+          <div class="tl-dot" style="border-color:#d9a441; color:#d9a441; background:#fbf1e2;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l2.5 2.5"/></svg></div>
+          <div class="tl-label">قائمة انتظار</div>
         </div>
         <div class="tl-step">
           <div class="tl-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
@@ -377,16 +377,20 @@
           <div class="tl-label">انتظار</div>
         </div>
         <div class="tl-step">
-          <div class="tl-dot" style="border-color:#d9a441; color:#d9a441; background:#fbf1e2;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l2.5 2.5"/></svg></div>
-          <div class="tl-label">قائمة انتظار</div>
+          <div class="tl-dot bad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg></div>
+          <div class="tl-label">رفض الأول</div>
         </div>
         <div class="tl-step">
           <div class="tl-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
           <div class="tl-label">تقديم مرة ثالثة</div><div class="tl-year">٢٠٢٦</div>
         </div>
         <div class="tl-step">
+          <div class="tl-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <div class="tl-label">انتظار</div>
+        </div>
+        <div class="tl-step">
           <div class="tl-dot bad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg></div>
-          <div class="tl-label">رفض مرة ثانية</div>
+          <div class="tl-label">رفض الثاني</div>
         </div>
       </div>
     </div>
